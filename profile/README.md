@@ -24,30 +24,6 @@
 
 An unofficial community that brings Rust security knowledge to Japanese readers **in a form that can be verified**. We connect vulnerabilities, supply-chain attacks, and binary analysis through the same skill: reading Rust deeply.
 
-## 📚 Published
-
-| | What | Where |
-|---|---|---|
-| 🕵️ | **incidents** — campaign records for malicious crates, the `RSJP-C` campaign ID spec, and RSJP Score, a Rust-specific severity scale (drafts) | [Site](https://rustsecjp.github.io/incidents/) ・ [Repository](https://github.com/RustSecJP/incidents) |
-| 📗 | **Secure Rust Guidelines** (ANSSI) — Japanese translation | [Site](https://rustsecjp.github.io/rust-guide-ja/) ・ [Repository](https://github.com/RustSecJP/rust-guide-ja) |
-| 📗 | **cargo-vet book** (Mozilla) — Japanese translation | [Site](https://rustsecjp.github.io/cargo-vet-ja/) ・ [Repository](https://github.com/RustSecJP/cargo-vet-ja) |
-| 📗 | **RustSec Advisory Database docs** — Japanese translation | [Site](https://rustsecjp.github.io/advisory-db-ja/) ・ [Repository](https://github.com/RustSecJP/advisory-db-ja) |
-| 📗 | **crates.io Trusted Publishing** — Japanese translation | [Site](https://rustsecjp.github.io/trusted-publishing-ja/) ・ [Repository](https://github.com/RustSecJP/trusted-publishing-ja) |
-
-The translations are unofficial and are not endorsed by the original authors.
-
-## 🧭 What we do
-
-| | Activity | Description | Status |
-|---|---|---|---|
-| 📘 | **Reporting handbook** | A Japanese guide to the path from upstream reporting and coordinated disclosure to submitting an advisory to RustSec | 🟡 In preparation |
-| 🔍 | **Verified vulnerability reports** | Reporting unsoundness and memory-safety issues to upstream maintainers after verifying them with Miri, fuzzing, and similar tools | 🟡 In preparation |
-| 🕵️ | **Campaign analysis of malicious crates** | Organizing attacks that use `build.rs` and `proc-macro` per campaign rather than per advisory, with the evidence for each link and a confidence level | ⚪ Planned |
-| 📰 | **Advisory and incident write-ups** | Japanese explanations of the technical background behind RustSec advisories and supply-chain incidents | ⚪ Planned |
-| 🛡️ | **Defense guides** | Adopting and operating `cargo-audit`, `cargo-deny`, `cargo-vet`, and Trusted Publishing, in Japanese | ⚪ Planned |
-| 🧬 | **Rust binary analysis** | Characterizing Rust-based malware (dependency crate sets, build-environment traces, and so on) | 🔒 After handling rules are in place |
-| 🎓 | **Small study sessions** | Reading groups and hands-on sessions on unsafe Rust and Miri | ⚪ Planned |
-
 ## 🔄 Reporting flow
 
 ```mermaid

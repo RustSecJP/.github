@@ -26,30 +26,6 @@
 
 Rustのセキュリティに関する知見を、**日本語で、検証できる形で**届ける非公式コミュニティです。脆弱性、サプライチェーン攻撃、バイナリ解析を、同じ「Rustを深く読む力」でつなぎます。
 
-## 📚 公開しているもの
-
-| | 内容 | 場所 |
-|---|---|---|
-| 🕵️ | **incidents** ― 悪意のある crate のキャンペーン記録、キャンペーン番号 `RSJP-C` の仕様、Rust 専用の重要度の採点方式「RSJP Score」（いずれも草案） | [サイト](https://rustsecjp.github.io/incidents/) ・ [リポジトリ](https://github.com/RustSecJP/incidents) |
-| 📗 | **安全な Rust アプリケーション開発の指針**（ANSSI「Secure Rust Guidelines」日本語訳） | [サイト](https://rustsecjp.github.io/rust-guide-ja/) ・ [リポジトリ](https://github.com/RustSecJP/rust-guide-ja) |
-| 📗 | **cargo-vet ガイド**（Mozilla「cargo-vet book」日本語訳） | [サイト](https://rustsecjp.github.io/cargo-vet-ja/) ・ [リポジトリ](https://github.com/RustSecJP/cargo-vet-ja) |
-| 📗 | **RustSec Advisory Database の文書**（日本語訳） | [サイト](https://rustsecjp.github.io/advisory-db-ja/) ・ [リポジトリ](https://github.com/RustSecJP/advisory-db-ja) |
-| 📗 | **crates.io の Trusted Publishing**（日本語訳） | [サイト](https://rustsecjp.github.io/trusted-publishing-ja/) ・ [リポジトリ](https://github.com/RustSecJP/trusted-publishing-ja) |
-
-翻訳はいずれも非公式で、原著者による確認や公認を受けたものではありません。
-
-## 🧭 活動
-
-| | 活動 | 内容 | 状況 |
-|---|---|---|---|
-| 📘 | **脆弱性報告の手引き** | 上流への報告、協調的な開示、RustSecへの助言の提出までの流れを日本語でまとめる | 🟡 準備中 |
-| 🔍 | **検証済みの脆弱性報告** | unsoundness やメモリ安全性の問題を、Miri・ファジングなどで検証したうえで、上流のメンテナへ報告する | 🟡 準備中 |
-| 🕵️ | **crate型マルウェアのキャンペーン分析** | `build.rs` や `proc-macro` を使う攻撃を、個別の助言ではなくキャンペーン単位で整理する(繋がりの根拠と確信度つき) | ⚪ 計画中 |
-| 📰 | **助言・事件の日本語解説** | RustSecの助言やサプライチェーン事件の技術的な背景を、日本語で読み解く | ⚪ 計画中 |
-| 🛡️ | **防御ガイド** | `cargo-audit` / `cargo-deny` / `cargo-vet` / Trusted Publishing の導入と運用を日本語で解説する | ⚪ 計画中 |
-| 🧬 | **Rustバイナリの解析** | Rust製マルウェアの特徴(依存crateの組み合わせ、ビルド環境の痕跡など)の整理 | 🔒 取扱い規程の整備後 |
-| 🎓 | **小さな勉強会** | unsafe Rust と Miri を読む輪読・ハンズオン | ⚪ 計画中 |
-
 ## 🔄 報告の流れ
 
 ```mermaid
