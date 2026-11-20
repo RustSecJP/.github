@@ -11,6 +11,8 @@
 
 **English** ｜ [日本語](https://github.com/RustSecJP/.github/blob/main/profile/README.ja.md)
 
+**Website: [rustsecjp.github.io](https://rustsecjp.github.io/en/)**
+
 </div>
 
 > [!IMPORTANT]
@@ -21,6 +23,18 @@
 ## What is RustSecJP?
 
 An unofficial community that brings Rust security knowledge to Japanese readers **in a form that can be verified**. We connect vulnerabilities, supply-chain attacks, and binary analysis through the same skill: reading Rust deeply.
+
+## 📚 Published
+
+| | What | Where |
+|---|---|---|
+| 🕵️ | **incidents** — campaign records for malicious crates, the `RSJP-C` campaign ID spec, and RSJP Score, a Rust-specific severity scale (drafts) | [Site](https://rustsecjp.github.io/incidents/) ・ [Repository](https://github.com/RustSecJP/incidents) |
+| 📗 | **Secure Rust Guidelines** (ANSSI) — Japanese translation | [Site](https://rustsecjp.github.io/rust-guide-ja/) ・ [Repository](https://github.com/RustSecJP/rust-guide-ja) |
+| 📗 | **cargo-vet book** (Mozilla) — Japanese translation | [Site](https://rustsecjp.github.io/cargo-vet-ja/) ・ [Repository](https://github.com/RustSecJP/cargo-vet-ja) |
+| 📗 | **RustSec Advisory Database docs** — Japanese translation | [Site](https://rustsecjp.github.io/advisory-db-ja/) ・ [Repository](https://github.com/RustSecJP/advisory-db-ja) |
+| 📗 | **crates.io Trusted Publishing** — Japanese translation | [Site](https://rustsecjp.github.io/trusted-publishing-ja/) ・ [Repository](https://github.com/RustSecJP/trusted-publishing-ja) |
+
+The translations are unofficial and are not endorsed by the original authors.
 
 ## 🧭 What we do
 

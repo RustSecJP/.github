@@ -11,6 +11,8 @@
 
 [English](https://github.com/RustSecJP) ｜ **日本語**
 
+**ウェブサイト: [rustsecjp.github.io](https://rustsecjp.github.io/)**
+
 *このページは英語版の翻訳です。内容が食い違う場合は英語版が優先されます。*
 
 </div>
@@ -23,6 +25,18 @@
 ## RustSecJP とは
 
 Rustのセキュリティに関する知見を、**日本語で、検証できる形で**届ける非公式コミュニティです。脆弱性、サプライチェーン攻撃、バイナリ解析を、同じ「Rustを深く読む力」でつなぎます。
+
+## 📚 公開しているもの
+
+| | 内容 | 場所 |
+|---|---|---|
+| 🕵️ | **incidents** ― 悪意のある crate のキャンペーン記録、キャンペーン番号 `RSJP-C` の仕様、Rust 専用の重要度の採点方式「RSJP Score」（いずれも草案） | [サイト](https://rustsecjp.github.io/incidents/) ・ [リポジトリ](https://github.com/RustSecJP/incidents) |
+| 📗 | **安全な Rust アプリケーション開発の指針**（ANSSI「Secure Rust Guidelines」日本語訳） | [サイト](https://rustsecjp.github.io/rust-guide-ja/) ・ [リポジトリ](https://github.com/RustSecJP/rust-guide-ja) |
+| 📗 | **cargo-vet ガイド**（Mozilla「cargo-vet book」日本語訳） | [サイト](https://rustsecjp.github.io/cargo-vet-ja/) ・ [リポジトリ](https://github.com/RustSecJP/cargo-vet-ja) |
+| 📗 | **RustSec Advisory Database の文書**（日本語訳） | [サイト](https://rustsecjp.github.io/advisory-db-ja/) ・ [リポジトリ](https://github.com/RustSecJP/advisory-db-ja) |
+| 📗 | **crates.io の Trusted Publishing**（日本語訳） | [サイト](https://rustsecjp.github.io/trusted-publishing-ja/) ・ [リポジトリ](https://github.com/RustSecJP/trusted-publishing-ja) |
+
+翻訳はいずれも非公式で、原著者による確認や公認を受けたものではありません。
 
 ## 🧭 活動
 
