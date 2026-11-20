@@ -24,17 +24,6 @@
 
 An unofficial community that brings Rust security knowledge to Japanese readers **in a form that can be verified**. We connect vulnerabilities, supply-chain attacks, and binary analysis through the same skill: reading Rust deeply.
 
-## 🔄 Reporting flow
-
-```mermaid
-flowchart LR
-  A[Discovery] --> B[Verification<br>Miri, fuzzing, etc.]
-  B --> C[Report to upstream maintainers]
-  C --> D[Coordinated disclosure]
-  D --> E[RustSec / CVE]
-  X[Suspected malicious crate] --> Y[Report to crates.io]
-```
-
 ## 🧪 Principles
 
 1. **We publish only what we have verified, with an explicit confidence level (high / medium / low).**
